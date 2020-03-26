@@ -58,6 +58,8 @@ func action(c *cli.Context) error {
 var albLogHeader []string = []string{
 	"type",
 	"elb",
+	"timestamp",
+	"client:port",
 	"target:port",
 	"request_processing_time",
 	"target_processing_time",
